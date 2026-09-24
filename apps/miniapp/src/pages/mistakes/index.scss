@@ -1,0 +1,44 @@
+.page {
+  padding: 32px 24px;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.title {
+  display: block;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.card {
+  padding: 24px;
+  margin-bottom: 20px;
+  border-radius: 16px;
+  background-color: #ffffff;
+  border: 2px solid #eadfd3;
+
+  &__content {
+    font-size: 30px;
+    line-height: 1.5;
+  }
+
+  &__meta {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+  }
+}
+
+.tag {
+  font-size: 22px;
+  color: #f97316;
+  background-color: #fff7ed;
+  padding: 6px 16px;
+  border-radius: 999px;
+}
+
+.count {
+  font-size: 24px;
+  color: #8a8178;
+}

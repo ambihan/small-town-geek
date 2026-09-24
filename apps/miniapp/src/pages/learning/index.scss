@@ -1,0 +1,45 @@
+.page {
+  padding: 32px 24px;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.title {
+  display: block;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.row {
+  margin-bottom: 28px;
+
+  &__head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+  }
+
+  &__name {
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  &__percent {
+    font-size: 28px;
+    color: #f97316;
+  }
+}
+
+.bar {
+  height: 16px;
+  border-radius: 999px;
+  background-color: #eadfd3;
+  overflow: hidden;
+
+  &__fill {
+    height: 100%;
+    border-radius: 999px;
+    background-color: #f97316;
+  }
+}
